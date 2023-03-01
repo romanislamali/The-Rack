@@ -1,0 +1,646 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "price": 549,
+      "description": "An apple mobile which is nothing like apple",
+      "category": "smartphones",
+      "image": "/assets/1.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "iPhone X",
+      "price": 899,
+      "description": "An apple mobile which is nothing like apple",
+      "category": "smartphones",
+      "image": "/assets/2.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Samsung Universe 9",
+      "price": 1249,
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "category": "smartphones",
+      "image": "/assets/3.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "OPPOF19",
+      "price": 280,
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "category": "smartphones",
+      "image": "/assets/4.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "Huawei P30",
+      "price": 499,
+      "description": "Huawei",
+      "category": "smartphones",
+      "image": "/assets/5.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "MacBook Pro",
+      "price": 1749,
+      "description": "MacBook",
+      "category": "laptops",
+      "image": "/assets/6.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "Samsung Galaxy Book",
+      "price": 1499,
+      "description": "Samsung",
+      "category": "laptops",
+      "image": "/assets/7.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "Microsoft Surface Laptop 4",
+      "price": 1499,
+      "description": "Microsoft",
+      "category": "laptops",
+      "image": "/assets/8.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 9,
+      "title": "Infinix INBOOK",
+      "price": 1099,
+      "description": "Infinix",
+      "category": "laptops",
+      "image": "/assets/9.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 10,
+      "title": "HP Pavilion 15-DK1056WM",
+      "price": 1099,
+      "description": "Pavilion",
+      "category": "laptops",
+      "image": "/assets/10.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      }
+    },
+    {
+      "id": 11,
+      "title": "perfume Oil",
+      "price": 13,
+      "description": "perfume Oil",
+      "category": "fragrances",
+      "image": "/assets/11.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": 12,
+      "title": "Brown Perfume",
+      "price": 40,
+      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+      "category": "fragrances",
+      "image": "/assets/12.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 13,
+      "title": "Fog Scent Xpressio Perfume",
+      "price": 13,
+      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+      "category": "fragrances",
+      "image": "/assets/13.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 14,
+      "title": "Non-Alcoholic Concentrated Perfume Oil",
+      "price": 120,
+      "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
+      "category": "fragrances",
+      "image": "/assets/14.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
+      "id": 15,
+      "title": "Eau De Perfume Spray",
+      "price": 30,
+      "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+      "category": "fragrances",
+      "image": "/assets/15.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 16,
+      "title": "Hyaluronic Acid Serum",
+      "price": 19,
+      "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+      "category": "skincare",
+      "image": "/assets/16.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 17,
+      "title": "Tree Oil 30ml",
+      "price": 12,
+      "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+      "category": "skincare",
+      "image": "/assets/17.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 18,
+      "title": "Oil Free Moisturizer 100ml",
+      "price": 40,
+      "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+      "category": "skincare",
+      "image": "/assets/18.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 19,
+      "title": "Skin Beauty Serum.",
+      "price": 46,
+      "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
+      "category": "skincare",
+      "image": "/assets/19.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 20,
+      "title": "Freckle Treatment Cream- 15gm",
+      "price": 70,
+      "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
+      "category": "skincare",
+      "image": "/assets/20.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    },
+    {
+      "id": 21,
+      "title": "Daal Masoor 500 grams",
+      "price": 20,
+      "description": "Fine quality Branded Product Keep in a cool and dry place",
+      "category": "groceries",
+      "image": "/assets/21.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": 22,
+      "title": "Elbow Macaroni - 400 gm",
+      "price": 14,
+      "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
+      "category": "groceries",
+      "image": "/assets/22.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 23,
+      "title": "Orange Essence Food Flavou",
+      "price": 14,
+      "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
+      "category": "groceries",
+      "image": "/assets/23.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 24,
+      "title": "cereals muesli fruit nuts",
+      "price": 46,
+      "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit.",
+      "category": "groceries",
+      "image": "/assets/24.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
+      "id": 25,
+      "title": "Gulab Powder 50 Gram",
+      "price": 70,
+      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
+      "category": "groceries",
+      "image": "/assets/25.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 26,
+      "title": "Plant Hanger For Home",
+      "price": 41,
+      "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
+      "category": "home-decoration",
+      "image": "/assets/26.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 27,
+      "title": "Flying Wooden Bird",
+      "price": 51,
+      "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
+      "category": "home-decoration",
+      "image": "/assets/27.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 28,
+      "title": "3D Embellishment Art Lamp",
+      "price": 20,
+      "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
+      "category": "home-decoration",
+      "image": "/assets/28.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 29,
+      "title": "Handcraft Chinese style",
+      "price": 60,
+      "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
+      "category": "home-decoration",
+      "image": "/assets/29.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 30,
+      "title": "Key Holder",
+      "price": 30,
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "category": "home-decoration",
+      "image": "/assets/30.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    },
+    {
+      "id": 31,
+      "title": "Fjallraven Backpack",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest.",
+      "category": "men's clothing",
+      "image": "/assets/bag.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 32,
+      "title": "Mens Casual Premium Slim Fit T-Shirts",
+      "price": 22.3,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket.",
+      "category": "men's clothing",
+      "image": "/assets/MensCasual.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 33,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions.",
+      "category": "men's clothing",
+      "image": "/assets/MensCottonJacket.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 34,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "description": "The color could be slightly different between on the screen and in practice.",
+      "category": "men's clothing",
+      "image": "/assets/MensCasualSlimFit.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 35,
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "price": 695,
+      "description": "From our Legends Collection.",
+      "category": "jewelery",
+      "image": "/assets/JohnHardy.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 36,
+      "title": "Solid Gold Petite Micropave ",
+      "price": 168,
+      "description": "Satisfaction Guaranteed.",
+      "category": "jewelery",
+      "image": "/assets/SolidGold.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 37,
+      "title": "White Gold Plated Princess",
+      "price": 9.99,
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her.",
+      "category": "jewelery",
+      "image": "/assets/WhiteGold.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 38,
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "price": 10.99,
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "jewelery",
+      "image": "/assets/PiercedOwl.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 39,
+      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+      "price": 64,
+      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity.",
+      "category": "electronics",
+      "image": "/assets/WD2TB.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 40,
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": 109,
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response.",
+      "category": "electronics",
+      "image": "/assets/SanDisk.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      }
+    },
+    {
+      "id": 41,
+      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "price": 109,
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds.",
+      "category": "electronics",
+      "image": "/assets/Silicon.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": 42,
+      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "price": 114,
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy.",
+      "category": "electronics",
+      "image": "/assets/WD4TBGaming.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 43,
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display.",
+      "category": "electronics",
+      "image": "/assets/AcerSB220Q.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 44,
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor",
+      "price": 999.99,
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR.",
+      "category": "electronics",
+      "image": "/assets/Samsung49.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
+      "id": 45,
+      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "price": 56.99,
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material.",
+      "category": "women's clothing",
+      "image": "/assets/BIYLACLESEN.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 46,
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 29.95,
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER).",
+      "category": "women's clothing",
+      "image": "/assets/Lock.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 47,
+      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "price": 39.99,
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded.",
+      "category": "women's clothing",
+      "image": "/assets/RainJacket.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 48,
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 9.85,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric.",
+      "category": "women's clothing",
+      "image": "/assets/MBJWomen.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 49,
+      "title": "Opna Women's Short Sleeve Moisture",
+      "price": 7.95,
+      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock.",
+      "category": "women's clothing",
+      "image": "/assets/Opna.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 50,
+      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "price": 12.99,
+      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print.",
+      "category": "women's clothing",
+      "image": "/assets/DANVOUY.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    }
+  ],
+  "customar": [
+    {
+      "id": 1,
+      "name": "roman",
+      "phone": "01949348018",
+      "email": "roman@gmail.com",
+      "password": "1234",
+      "address": "mohammadpur"
+    },
+    {
+      "name": "sajib",
+      "phone": "0154284564",
+      "email": "sajib@gmail.com",
+      "password": "1122",
+      "address": "mirpur",
+      "id": 2
+    },
+    {
+      "name": "Ehsan",
+      "phone": "01255454",
+      "email": "roman@gmail.com",
+      "password": "1234",
+      "address": "bvcbv",
+      "id": 3
+    },
+    {
+      "name": "karim",
+      "phone": "25758",
+      "email": "roman@gmail.com",
+      "password": "1111",
+      "address": "sdafdsaf",
+      "id": 4
+    },
+    {
+      "name": "dfsd",
+      "phone": "dsfsd",
+      "email": "rgds",
+      "password": "1122",
+      "address": "gfsdg",
+      "id": 5
+    }
+  ]
+}

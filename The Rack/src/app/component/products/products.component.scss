@@ -1,0 +1,48 @@
+
+
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: azure;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .05rem;
+}
+
+.item {
+    margin-left: 160px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item a:hover {
+    color: green;
+}
+
+.card {
+    padding: 20px;
+    margin: 47px;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+
+
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    transition: 0.3s ease-in-out;
+}
+
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+a{
+    cursor: pointer;  
+}

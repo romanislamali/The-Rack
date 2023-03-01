@@ -1,0 +1,53 @@
+
+<div class="container">
+    <h2>Sign Up</h2>   
+    <form [formGroup]="cRegForm" (ngSubmit)="registration()"  autocomplete="on">       
+        <!--First name-->
+        <div class="box">           
+            <div class="fr">
+                <input formControlName="name" type="text" name="Name" placeholder="Name" class="textBox" autofocus="on" required>
+            </div>
+        
+        </div>          
+        <!---Phone No.------>
+        <div class="box">            
+            <div class="fr">
+                <input formControlName="phone" type="text" required name="phoneNo" maxlength="10" placeholder="Phone No." class="textBox">
+            </div>
+          
+        </div>        
+        <!---Email ID---->
+        <div class="box">
+            <div class="fr">
+                <input formControlName="email" type="email" required name="email" placeholder="Email Id" class="textBox">
+            </div>
+           
+        </div>
+        <!---Password------>
+        <div class="box">
+            <div class="fr">
+                <input formControlName="password" type="Password" required name="password" placeholder="Password" class="textBox">
+            </div>
+           
+        </div>
+        <!---address------>
+        <div class="box">
+            <div class="fr">
+                <textarea formControlName="address" type="text"  name="address" placeholder="Address" class="textBox"  required></textarea>
+            </div>
+          
+        </div>
+        <!--Terms and Conditions------>
+        <label style="color: aliceblue">Purchase of selected products are non-cancellable!</label>
+        <div class="box terms">
+            
+            <input type="checkbox" name="Terms" required> &nbsp;  I accept the terms and conditions
+        </div>
+        <!---Submit Button------>
+        <div>
+            <input class="btn btn-outline-light btn-lg px-5" type="Submit" value="Submit">
+            <p style="color: aliceblue">Already have an account? <a routerLink="/customarlogin">Sign
+                In</a>
+        </div>
+    </form>
+</div>

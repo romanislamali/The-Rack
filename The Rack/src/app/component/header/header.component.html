@@ -1,0 +1,72 @@
+<header>
+    <div class="navbar shadow-dark fixed-top" style="background-color: #023e73">
+        <div class="navbar-brand align-item-center d-flex" style="height: 70px;">
+            <button class="btn btn-outline-light menu" style="margin-top: 10px; display: inline-block;" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <img src="./assets/menu.png" alt="Menu">
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" style="width:200px; background-color:#023e73"
+                id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div style="margin-left: 30px">
+
+                    <div style="margin-top: 50px">
+                        <button class="btn btn-outline-light" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" routerLink="/products" (click)="catNull=true"
+                            type="submit" style="width: 130px">Home</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-light mt-3" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" routerLink="/cart"
+                            type="submit" style="width: 130px">My Cart</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-light mt-3" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" routerLink="/contactus"
+                            type="submit" style="width: 130px">Contact Us</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-light mt-3" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" routerLink="/aboutus"
+                            type="submit" style="width: 130px">About Us</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-light mt-3" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" routerLink="/footer"
+                            type="submit" style="width: 130px">Help</button>
+                    </div>
+                    <div>
+                        <button (click)="signOut()" class="btn btn-outline-light mt-3" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" routerLink="/products"
+                            type="submit" style="width: 130px">Sign Out</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="logo" routerLink="products">
+                <img src="./assets/logo.jpg" alt="#">
+            </div>
+
+            <div class="title">
+                <strong>The Rack</strong>
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)"
+                    placeholder="search products">
+            </div>
+            <div class="cartBTN">
+                <button routerLink="cart" style="width: 80px; height: 70px;">
+                    <img src="./assets/cart.png" alt="Cart">
+                    <div>{{totalItem}}</div>
+                </button>
+            </div>           
+        </div>
+    </div>
+</header>

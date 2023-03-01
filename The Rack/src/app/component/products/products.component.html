@@ -1,0 +1,43 @@
+<div class="navbar shadow-dark" id="xx" style="margin-top:10px">
+    <div class="container align-items-end flex-column fixed-top">
+        <div class="row">
+            <div class="dropdown">
+                <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Category
+                </button>
+                <ul class="dropdown-menu btn btn-outline-light">
+                    <li><a class="dropdown-item" (click)="filter('')">All Products</a></li>
+                    <li><a class="dropdown-item" (click)="filter('electronics')">Electronics</a></li>
+                    <li><a class="dropdown-item" (click)="filter('fashion')">Fashion</a></li>
+                    <li><a class="dropdown-item" (click)="filter('jewelery')">Jewllery</a></li>
+                    <li><a class="dropdown-item" (click)="filter('smartphones')">Smartphone</a></li>
+                    <li><a class="dropdown-item" (click)="filter('laptops')">Laptop</a></li>
+                    <li><a class="dropdown-item" (click)="filter('fragrances')">Fragrances</a></li>
+                    <li><a class="dropdown-item" (click)="filter('skincare')">Skincare</a></li>
+                    <li><a class="dropdown-item" (click)="filter('groceries')">Groceries</a></li>
+                    <li><a class="dropdown-item" (click)="filter('home-decoration')">Home-decoration</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style="margin-top:70px">
+    <div class="row">
+        <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
+            <div class="card col-md-3">
+                <img src="{{item.image}}" alt="{{item.name}}">
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                    {{item.title}}</h5>
+                <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                    {{item.description}}</p>
+                <p><strong>Price:</strong> ${{item.price}}</p>
+                <button class="btn btn-outline-light" style="background-color: #023e73" (click)=addtocart(item)>Add to
+                    cart</button>
+            </div>
+        </ng-container>
+    </div>
+</div>
+<app-footer></app-footer>

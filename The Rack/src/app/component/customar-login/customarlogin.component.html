@@ -1,0 +1,36 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-50" style="margin-top:80px">
+        <div class="row d-flex justify-content-center align-items-center h-50">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card shadow-2-strong"
+                style="border-radius: 1rem; box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);">
+                    <div class="card-body p-5 text-center" style="background-color: #023e73">
+                        <div style="color: aliceblue;">
+                            <form [formGroup]="loginForm" (ngSubmit)="login()">
+                                <h2 class="mb-2">Sign In</h2>
+                            <p>Please enter your email and password!</p>
+
+                            <div class="form-outline mb-4">
+                                <input formControlName="email" type="email"  class="form-control "
+                                    placeholder="Enter Your Email" />
+                            </div>
+
+                            <div class="form-outline  mb-4">
+                                <input formControlName="password" type="password"  class="form-control "
+                                    placeholder="Enter Your Password" />
+                            </div>
+                            <p class="small mb-5 "><a routerLink="customarlogin">Forgot password?</a>
+                            </p>
+                            <button class="btn btn-outline-light  px-5" 
+                                type="submit">Sign-in</button>
+                            <p>Don't have an account? <a routerLink="/customarreg">Sign
+                                    Up</a>
+                            </p>
+                            </form>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
